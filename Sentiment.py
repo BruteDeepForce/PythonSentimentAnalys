@@ -11,9 +11,9 @@ def analyze_sentiment(text):                     ##Standart sentiment analys fun
     
     plt.bar(sentiment_scores.keys(), sentiment_scores.values())    #i have use plt.bar. because i want to see Bar design
 
-    plt.title("Gelen Yorum:\n"+ text)
-    plt.xlabel('DUYGUSAL DURUM')
-    plt.ylabel('DEĞER')
+    plt.title("Comment:\n"+ text)
+    plt.xlabel('Sentiment')
+    plt.ylabel('Count')
     plt.show()     
     input("Please Enter to Exit...") 
     
